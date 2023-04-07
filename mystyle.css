@@ -1,0 +1,58 @@
+.col_destra {
+    float: right;
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    text-align: left;
+    padding: 2%;
+}
+
+.col_sinistra {
+    background-color: #106ae0;
+    float: left;
+    width: 30%;
+    height: 100vh;
+    position: relative;
+    text-align: right;
+    padding: 2%;
+    color: beige;
+}
+
+.contenitore {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.rbot {
+    float: right;
+    position: relative;
+    padding: 1%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col_sinistra.h3 {
+    margin-top: 3%;
+    margin-bottom: -0.5%;
+}
+
+.col_sinistra.p {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+th {
+    padding: 3%;
+}
+
+table {
+    border: 10px;
+    border-color: beige;
+}
