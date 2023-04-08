@@ -1,4 +1,4 @@
-.col_destra {
+#col_destra {
     float: right;
     width: 60%;
     height: 100%;
@@ -7,7 +7,7 @@
     padding: 2%;
 }
 
-.col_sinistra {
+#col_sinistra {
     background-color: #106ae0;
     float: left;
     width: 30%;
@@ -25,9 +25,9 @@
     padding:10%;
 }
 
-.contenitore {
-    margin-left: 20%;
-    margin-right: 20%;
+#contenitore {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .rbot {
@@ -52,4 +52,12 @@ th {
 table {
     border: 10px;
     border-color: beige;
+}
+@media print {
+    #noprint{
+        display:none;
+    }
+    #col_sinistra {
+        print-color-adjust: exact;
+    }
 }
