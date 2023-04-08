@@ -1,7 +1,7 @@
 #col_destra {
     float: right;
     width: 60%;
-    height: 100%;
+    height: 200vh;
     position: relative;
     text-align: left;
     padding: 2%;
@@ -11,7 +11,7 @@
     background-color: #106ae0;
     float: left;
     width: 30%;
-    height: 100vw;
+    height: 200vh;
     position: relative;
     text-align: right;
     padding: 2%;
@@ -28,6 +28,10 @@
 #contenitore {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    height: 100%;
+
 }
 
 .rbot {
@@ -47,12 +51,18 @@ li {
 
 th {
     padding: 3%;
+    position: relative;
 }
 
 table {
     border: 10px;
     border-color: beige;
+    width: 90%;
+    position: relative;
 }
+
+
+
 @media print {
     #noprint{
         display:none;
