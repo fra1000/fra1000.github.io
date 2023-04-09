@@ -1,3 +1,11 @@
+#contenitore {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    height: 100%;
+}
+
 #col_destra {
     float: right;
     width: 60%;
@@ -8,7 +16,7 @@
 }
 
 #col_sinistra {
-    background-color: #106ae0;
+    background: linear-gradient(90deg, rgb(30, 30, 175) 0%,  rgb(20, 20, 140) 50%, rgb(10, 10, 105) 100%);
     float: left;
     width: 30%;
     height: 200vh;
@@ -25,15 +33,6 @@
     padding:10%;
 }
 
-#contenitore {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    height: 100%;
-
-}
-
 .rbot {
     float: right;
     position: relative;
@@ -45,8 +44,13 @@ body {
 }
 
 li {
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 3px;
+    margin-bottom: 4px;  
+}
+
+p, h3, b{
+    margin-top: 3px;
+    margin-bottom: 4px;  
 }
 
 th {
@@ -54,14 +58,27 @@ th {
     position: relative;
 }
 
-table {
-    border: 10px;
-    border-color: beige;
+table{
     width: 90%;
     position: relative;
 }
 
 
+table, th, tr {
+    border: 1px solid beige;
+    border-collapse: collapse;
+}
+
+button{
+    background: rgb(23, 81, 189);
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: beige;
+    font-weight: bold;
+    font-size: medium;
+}
 
 @media print {
     #noprint{
